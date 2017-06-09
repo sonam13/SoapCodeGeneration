@@ -23,7 +23,7 @@ public class SoapCodeGenerationController
 	
 	@Autowired 
 	SoapCodeGenerationService service;
-	@RequestMapping(value = "/soapCodeGeneration", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody String getClientes(@RequestBody Request request) {
 		String msg=null;
 		try
